@@ -1,3 +1,3 @@
-# angular-c1st1w
+#Tic-Tac-Toe
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-c1st1w)
+A very popular game, which has 3X3 matrix and the user who completes either a row/colum/any diagonal first will win the game.
