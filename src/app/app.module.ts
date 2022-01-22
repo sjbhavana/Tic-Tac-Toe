@@ -7,9 +7,9 @@ import { HelloComponent } from './hello.component';
 import { GameLogicService } from './game-logic.service';
 import { BoardComponent } from './board/board.component';
 import { SquareComponent } from './square/square.component';
-
+import {MatButtonModule} from '@angular/material/button';
 @NgModule({
-  imports: [BrowserModule, FormsModule],
+  imports: [BrowserModule, FormsModule,MatButtonModule],
   declarations: [AppComponent, HelloComponent, BoardComponent, SquareComponent],
   bootstrap: [AppComponent],
   providers: [GameLogicService],

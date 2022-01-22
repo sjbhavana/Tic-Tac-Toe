@@ -7,5 +7,8 @@ import { GameLogicService } from './game-logic.service';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  constructor(public gamelogic: GameLogicService) {}
+  constructor(public gameService: GameLogicService) {}
+  resetGame() {
+    this.gameService.newGame();
+  }
 }
